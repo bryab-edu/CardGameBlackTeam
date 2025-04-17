@@ -1,7 +1,7 @@
 function playerHit() {
   const card = deck.pop();
   playerHand.push(card);  
-  playerSum = handVal(playerHand);
+  playerSum = getHandVal(playerHand);
   if (playerSum == 21) {
     status = "won";
   }
