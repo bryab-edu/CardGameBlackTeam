@@ -1,3 +1,5 @@
+// @ts-check
+
 class Card {
   constructor(suit, rank, value) {
     this.suit = suit;
